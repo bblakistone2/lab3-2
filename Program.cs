@@ -10,6 +10,10 @@ namespace lab3_2
     {
         static void Main(string[] args)
         {
+
+
+            Console.WriteLine("Press <ENTER> to quit...");
+            Console.ReadLine();
         }
     }
 }
