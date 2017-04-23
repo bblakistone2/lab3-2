@@ -22,7 +22,7 @@ namespace lab3_2
         }
         public override string ToString()
         {
-            return $"{LastName,-25} {FirstName,-15} Number of Scores:{Scores.Count()} Average:{Scores.Average()}";
+            return $"{LastName,-25} {FirstName,-15} Number of Scores:{Scores.Count()}   Average:{Scores.Average():0.###}";
         }
         public void Dispose()
         {

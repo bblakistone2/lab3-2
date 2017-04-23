@@ -44,6 +44,12 @@ namespace lab3_2
                 {
                     Console.WriteLine(x);
                 }
+                //a.Resize(3);
+                //foreach (int x in a)
+                //{
+                //    Console.WriteLine(x);
+                //}
+
             }
             DynamicArray<int> b = new DynamicArray<int>(5);
             b[0] = 123;
@@ -51,6 +57,7 @@ namespace lab3_2
             {
                 Console.WriteLine(x);
             }
+            
         }
 
         private static void StudentTest()

@@ -51,15 +51,15 @@ namespace lab3_2
         #region methods
         public void Resize(int x)
         {
-            T[] newitems = new T[x];
+            T[] newitems = _Items;
             int copythese = _Items.Length-1;
-            if ((_Items.Length+1) > x)
+            if ((_Items.Length) > x)
             {
                 Console.WriteLine("Losing data on resize");
                 copythese = x;
             }
             _Items = new T[x];
-            for (int i =copythese; i >= 0; --i) 
+            for (int i =copythese-1; i >= 0; --i) 
             {
                  _Items[i]= newitems[i];
             }
